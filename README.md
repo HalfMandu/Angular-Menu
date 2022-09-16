@@ -2,13 +2,14 @@
 Angular frontend for menu application
 
 ## Uses
-* Angular
+* Angular                           6
+* Typescript                        2.7.2
+* Webpack                           4.8.3
 * Flex-layout
 * Material
 * Router
 * Hammerjs
 * Jasmine/Karma/Protractor
-* Typescript
 
 ## Angular
 
