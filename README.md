@@ -28,10 +28,10 @@ http://localhost:4200/home
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-ng build --prod 		//build app --> files go to /dist
+Run `ng build --prod` to build and output files to /dist
 
 ## Lint
-Ruin `ng lint` to run lint
+Run `ng lint` to run lint
 
 ## Running unit tests
 
