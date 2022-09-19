@@ -1,11 +1,4 @@
-//@import '../../styles.scss';
 @import '../../variables';
-
-// $lt-gray: #ddd;
-// $background-dark: #512DA8;
-// $background-light: #9575CD;
-// $background-pale: #D1C4E9;
-// $background-moredark: #4527A0;
 
 @mixin zero-margin($pad-up-down, $pad-left-right) {
     margin: 0px auto;
@@ -25,3 +18,12 @@
 .container div {
     color: rgb(38, 39, 39);
 }
+
+mat-toolbar > a {
+    margin-left: 15px;
+}
+
+// .container {
+//     padding-left: 15%;
+//     padding-right: 15%;
+// }
