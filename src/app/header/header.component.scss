@@ -23,6 +23,10 @@ mat-toolbar > a {
     margin-left: 15px;
 }
 
+mat-toolbar {
+    overflow: auto
+}
+
 // .container {
 //     padding-left: 15%;
 //     padding-right: 15%;
