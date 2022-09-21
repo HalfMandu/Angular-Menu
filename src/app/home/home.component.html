@@ -8,7 +8,7 @@
 <!-- Food Item -->
 <mat-card *ngIf="dish" fxFlex [@expand]>
   <mat-card-header>
-    <div mat-card-avatar></div>
+    <img mat-card-avatar src="{{ baseURL + dish.image}}"/>
     <mat-card-title>
       <h3>{{dish.name | uppercase}}</h3>
     </mat-card-title>
@@ -27,10 +27,10 @@
   <h4>{{dishErrMess}}</h4>
 </div>
 
-<!-- The chosen Promotion for today -->
+<!-- Promotion for today -->
 <mat-card *ngIf="promotion" fxFlex [@expand]>
   <mat-card-header>
-    <div mat-card-avatar></div>
+    <img div mat-card-avatar src="{{ baseURL + promotion.image }}" />
     <mat-card-title>
       <h3>{{promotion.name | uppercase}}</h3>
     </mat-card-title>
@@ -49,10 +49,10 @@
   <h4>{{promoErrMess}}</h4>
 </div>
 
-<!-- The Leader -->
+<!-- Leader -->
 <mat-card *ngIf="leader" fxFlex [@expand]>
   <mat-card-header>
-    <div mat-card-avatar></div>
+    <img mat-card-avatar src="{{ baseURL + leader.image }}"/>
     <mat-card-title>
       <h3>{{leader.name | uppercase}} {{leader.abbr}}</h3>
     </mat-card-title>
