@@ -3,16 +3,14 @@ fxLayout="column"
 fxLayoutGap="10px">
 
 <div fxFlex>
-<div fxLayout="row" fxLayoutAlign="none center">
- <h3 fxFlex="80%">My Favorites</h3>
- <span class="flex-spacer"></span> 
- <mat-slide-toggle fxFlex
- [(ngModel)]="delete"
- >
- Delete!
- </mat-slide-toggle>
-</div>
-<hr>
+  <div fxLayout="row" fxLayoutAlign="none center">
+    <h3 fxFlex="80%">My Favorites</h3>
+    <span class="flex-spacer"></span> 
+    <mat-slide-toggle fxFlex [(ngModel)]="delete">
+      Delete!
+    </mat-slide-toggle>
+  </div>
+  <hr>
 </div>
 
 <div *ngIf="favorites || errMess; else loading">
